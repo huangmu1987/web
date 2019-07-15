@@ -1,2 +1,2 @@
-FROM nginx:1.15.8-alpine
+FROM nginx:stable-alpine
 ADD index.html /usr/share/nginx/html/index.html
